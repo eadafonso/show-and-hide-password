@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8f11f0;
+}
+
+.input-field {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.input-field input {
+  border: 0px;
+  width: 15rem;
+  height: 3rem;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 0px 30px 0px 20px;
+}
+
+.input-field .icon {
+  right: 10px;
+  cursor: pointer;
+  color: #7b1ac6;
+  position: absolute;
+}
